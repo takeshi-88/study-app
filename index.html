@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一問一答クイズ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>一問一答クイズ</h1>
+        <div class="question-box">
+            <p id="question-text">問題を読み込み中...</p>
+        </div>
+        <div class="answer-buttons">
+            <button class="btn btn-maru" onclick="checkAnswer(true)">◯</button>
+            <button class="btn btn-batsu" onclick="checkAnswer(false)">×</button>
+        </div>
+        <div id="result-box" class="result-box hidden">
+            <p id="result-message"></p>
+            <button id="next-btn" class="btn-next" onclick="nextQuestion()">次の問題へ</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
