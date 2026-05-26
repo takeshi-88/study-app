@@ -1,5 +1,5 @@
 // ⭐【ここに注意！】さっきコピーしたスプレッドシートのURLを、下のダブルクォーテーションの中に貼り付けてください！
-const SPREADSHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRns5yqIMKL4YED3LwRCNqK6ESGtbKnvYZXYcK2A1js5LY_S0JYZ6ROvksoEFuOVta1FMm-SqsP1WQS/pubhtml";
+const SPREADSHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRns5yqIMKL4YED3LwRCNqK6ESGtbKnvYZXYcK2A1js5LY_S0JYZ6ROvksoEFuOVta1FMm-SqsP1WQS/pub?output=csv”;
 
 let quizData = [];
 let currentQuestionIndex = 0;
